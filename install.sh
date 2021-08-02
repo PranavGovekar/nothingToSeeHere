@@ -1,4 +1,4 @@
-#!/bin/bash/
+#!/bin/bash
 
 sudo apt-get update -y
 sudo apt-get upgrade
@@ -23,19 +23,21 @@ rm -rf python_installation
 apt --purge remove build-essential checkinstall libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev -y
 apt autoremove -y
 apt clean
-python3.9 -m pip install -U pip
-echo '$alias pip3="python3.9 -m pip"' >> ~/.bashrc
+sudo apt install python3-pip
+pip3 --version
 
 sudo apt-get install git -y
+git --version
 git config --global user.name FrigusRex
 git config --global user.email pranav.govekar@gmail.com
+git config --list
 
 sudo apt install cmatrix -y
 
-cd
+cd 
 mkdir .themes
 cd nothingToSeeHere-main
-mv Dracula.tar.xz /home.frigusrex/.themes
+mv Dracula.tar.xz /home/frigusrex/.themes
 cd
 cd .themes
 tar -xf Dracula.tar.xz
