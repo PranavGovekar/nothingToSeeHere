@@ -45,6 +45,3 @@ rm -f Dracula.tar.xz
 
 # sudo usermod -a -G vboxsf frigusrex
 # sudo chown -R frigusrex :users /media/
-
-# https://drive.google.com/file/d/1zPUu1Nn5eVD3465EyftaG5YSV4T2xqyL/view?usp=sharing wallpaper
-# https://drive.google.com/file/d/1ygGcukIlk53y24XvQAMbrpL7SrwFCSaV/view?usp=sharing theme
